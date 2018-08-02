@@ -1,0 +1,13 @@
+
+server:
+    port: 8888
+    servlet:
+        contextPath: /
+
+# ===================================================================
+# Application specific properties
+# ===================================================================
+
+application:
+    vigilante-api: http://localhost:8888/ipvigilante/json/
+

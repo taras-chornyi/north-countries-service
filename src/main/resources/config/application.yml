@@ -1,0 +1,31 @@
+# ===================================================================
+# Spring Boot specific properties
+# ===================================================================
+
+spring:
+    application:
+        name: northcountries
+
+server:
+    port: 8888
+    servlet:
+        contextPath: /
+
+# ===================================================================
+# Application specific properties
+# ===================================================================
+
+application:
+    vigilante-api: https://ipvigilante.com/json/
+
+    swagger:
+        base-package: com.taras.chornyi.north.countries.web.rest
+        title: North Countries REST API Services
+        description: The services which are expose API for the North Countries Service
+        version: 0.0.1
+        terms-of-service-url: Terms of service
+        contact-name: Taras Chornyi
+        contact-url: https://github.com/taras-chornyi
+        contact-email: taras.chornyi@gmail.com
+        license: Apache License Version 2.0
+        license-url: https://www.apache.org/licenses/LICENSE-2.0

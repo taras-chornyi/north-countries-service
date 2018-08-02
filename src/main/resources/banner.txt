@@ -1,0 +1,3 @@
+
+${AnsiColor.BRIGHT_BLUE}:: Northern Countries Service :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.roche.pl ::${AnsiColor.DEFAULT}
